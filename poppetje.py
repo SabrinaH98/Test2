@@ -33,7 +33,7 @@ class MyGame(arcade.Window):
         self.player_list = arcade.SpriteList()
 
 
-        plaatje = "player_stand.png"
+        plaatje = "P.png"
         self.player_sprite = arcade.Sprite(plaatje, CHARACTER_SCALING)
         self.player_sprite.center_x = 64
         self.player_sprite.center_y = 120
